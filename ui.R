@@ -26,9 +26,9 @@ shinyUI(fluidPage(
                         p("It sometimes difficult to people to came up with a random selection of numbers to play these games"),
                        p("Therefore we created a random number generated app to select possible winning numbers")
                         ),
-                mainPanel(
+                        mainPanel(
                         
-                        dataTableOutput('results')
-                )
+                        dataTableOutput('lotto')
+                        )
         )
 ))
